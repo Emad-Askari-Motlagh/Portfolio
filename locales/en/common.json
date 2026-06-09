@@ -70,14 +70,26 @@
     "items": [
       {
         "id": "timetrack",
-        "title": "LPE Timetrack",
-        "description": "Participated in Laggelee AB's LPE project. Designed and built the entire solution — Flutter app and web platform, now live. Users can create tasks and projects, register work time, and log leave such as parental leave, vacation, and sick leave.",
+        "title": "Timetrack",
+        "description": "Designed and built the entire solution — Flutter app and web platform, now live. Users can create tasks and projects, register work time, and log leave such as parental leave, vacation, and sick leave.",
         "category": "Time & Projects",
         "role": "Lead developer",
         "tech": ["Flutter", "React", "GraphQL", "Node.js", "MongoDB"],
         "url": "https://timetrack.scopeworks.se/",
         "endpoint": "timetrack.scopeworks.se",
         "image": "/timetrack/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "lpe",
+        "title": "LPE",
+        "description": "Contributed to the app and web solution for LPE — professional general contracting in Gothenburg.",
+        "category": "General Contracting",
+        "role": "Contributing developer",
+        "tech": ["React", "Node.js", "MongoDB"],
+        "url": "https://www.lpe.se",
+        "endpoint": "lpe.se",
+        "image": "/lpe/cover.png",
         "gradient": null
       },
       {

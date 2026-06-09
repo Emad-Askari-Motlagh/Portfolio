@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emad Askareimotlagh – CV</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+      color: #1e293b;
+      padding: 36px 42px;
+    }
+    header {
+      border-bottom: 3px solid #0284c7;
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 26pt;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+    }
+    .role {
+      font-size: 13pt;
+      color: #0284c7;
+      font-weight: 600;
+      margin: 4px 0 10px;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+      font-size: 9.5pt;
+      color: #475569;
+    }
+    .contact span::before { color: #94a3b8; }
+    h2 {
+      font-size: 11pt;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #0284c7;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+      margin: 16px 0 8px;
+    }
+    p { margin-bottom: 6px; color: #334155; }
+    .summary p { text-align: justify; }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 24px;
+    }
+    .skill-item strong { color: #0f172a; display: block; font-size: 10pt; }
+    .skill-item span { font-size: 9.5pt; color: #475569; }
+    .project { margin-bottom: 10px; }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .project h3 { font-size: 10.5pt; color: #0f172a; }
+    .project .role-tag {
+      font-size: 8.5pt;
+      color: #6d28d9;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .project p { font-size: 9.5pt; margin: 2px 0 4px; }
+    .tech {
+      font-size: 8.5pt;
+      color: #0369a1;
+      font-weight: 500;
+    }
+    .edu-item, .lang-item, .exp-item { margin-bottom: 6px; }
+    .edu-item strong, .exp-item strong { color: #0f172a; }
+    .edu-item span, .exp-item span { color: #64748b; font-size: 9.5pt; }
+    .tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 4px;
+    }
+    .tech-list span {
+      background: #f0f9ff;
+      color: #0369a1;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 8.5pt;
+      font-weight: 500;
+    }
+    .langs { display: flex; gap: 20px; flex-wrap: wrap; }
+    .lang-item { font-size: 9.5pt; }
+    .lang-item strong { color: #0f172a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Emad Askareimotlagh</h1>
+    <p class="role">Fullstackutvecklare</p>
+    <div class="contact">
+      <span>emad.askari@gmail.com</span>
+      <span>073-056 59 60</span>
+      <span>Göteborg, Sverige</span>
+    </div>
+  </header>
+
+  <section class="summary">
+    <h2>Profil</h2>
+    <p>Jag har 3 års professionell erfarenhet av system- och webbutveckling, men har programmerat långt innan dess, vilket har gett mig en stabil och bred teknisk grund. Även om jag formellt ibland kategoriseras som junior, ligger min praktiska erfarenhet och problemlösningsförmåga närmare en mer senior nivå.</p>
+    <p>Jag har arbetat både i Sverige och i internationella, distribuerade team och är van vid att ta ansvar för hela utvecklingskedjan – från kravanalys till färdig leverans. Jag trivs i samarbetsorienterade miljöer där tydlig kommunikation, kunskapsdelning och kvalitet står i fokus.</p>
+  </section>
+
+  <section>
+    <h2>Kompetens</h2>
+    <div class="grid-2">
+      <div class="skill-item">
+        <strong>Frontend</strong>
+        <span>React, Next.js, Vue, TypeScript och moderna UI/UX-principer.</span>
+      </div>
+      <div class="skill-item">
+        <strong>Backend</strong>
+        <span>Node.js, Express, .Net, MongoDB, PostgreSQL, GraphQL och RESTful API:er.</span>
+      </div>
+      <div class="skill-item">
+        <strong>Mobil</strong>
+        <span>React Native och Flutter för plattformsoberoende appar.</span>
+      </div>
+      <div class="skill-item">
+        <strong>Arbetssätt</strong>
+        <span>Agilt arbetssätt, Cypress, WebSockets, CI/CD, Mapbox, Stripe, Fortnox.</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Erfarenhet</h2>
+    <div class="exp-item">
+      <strong>Fullstackutveckling</strong><br />
+      <span>Ansvar för hela utvecklingskedjan – från kravanalys och arkitektur till implementation och leverans.</span>
+    </div>
+    <div class="exp-item">
+      <strong>Internationella team</strong><br />
+      <span>Erfarenhet av distribuerade team i Sverige och utomlands med tydlig kommunikation och kunskapsdelning.</span>
+    </div>
+    <div class="exp-item">
+      <strong>Problemlösning</strong><br />
+      <span>Praktisk erfarenhet och problemlösningsförmåga som överstiger typisk juniornivå.</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Utvalda projekt</h2>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Timetrack — timetrack.scopeworks.se</h3>
+        <span class="role-tag">Huvudutvecklare</span>
+      </div>
+      <p>Designade och utvecklade hela lösningen – Flutter-app och webbplattform i produktion. Användare kan skapa uppgifter och projekt, registrera arbetstid samt ledighet (föräldraledighet, semester, sjukfrånvaro).</p>
+      <p class="tech">Flutter · React · GraphQL · Node.js · MongoDB</p>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>LPE — lpe.se</h3>
+        <span class="role-tag">Medverkande utvecklare</span>
+      </div>
+      <p>Deltog i utveckling av app och webblösning för LPE – professionell totalentreprenad i Göteborg.</p>
+      <p class="tech">React · Node.js · MongoDB</p>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>SecuroPortal — scopeguard.se</h3>
+        <span class="role-tag">90% av kod & planering</span>
+      </div>
+      <p>Avancerad plattform för Scopeworks AB där underkunder kan dela upp och dela parkeringsytor samt ta betalt via Fortnox-faktura eller Stripe.</p>
+      <p class="tech">React · GraphQL · Node.js · Mapbox · Stripe · Fortnox</p>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Anbar – Lagerhantering</h3>
+        <span class="role-tag">Huvudutvecklare</span>
+      </div>
+      <p>Lagrings- och lagerhanteringssystem för möbelfabrik i Iran. React-webbapp med .NET-backend för produkthantering, lagerstatus och rapporter.</p>
+      <p class="tech">React · .NET · C# · SQL Server</p>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Göteburgare Grill & Bar — goteburgare.com</h3>
+      </div>
+      <p>Restaurangwebbplats med onlinebokning av vegan mat, catering, lunchmeny och restauranginformation.</p>
+      <p class="tech">React · Node.js · MongoDB</p>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Prevent</h3>
+        <span class="role-tag">Medverkande utvecklare</span>
+      </div>
+      <p>React Native-app för parkeringsvakter att registrera registreringsnummer i fält. Scopeworks AB.</p>
+      <p class="tech">React Native · Node.js · MongoDB</p>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Foodieexpress — foodieexpress.se</h3>
+      </div>
+      <p>E-handelsplattform för godisförsäljning med modern checkout och betalningsintegration.</p>
+      <p class="tech">React · Next.js · Stripe</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Utbildning</h2>
+    <div class="edu-item"><strong>Computer science</strong> — <span>Kandidatexamen · Iran</span></div>
+    <div class="edu-item"><strong>Fullstackutvecklare</strong> — <span>Jensen Yrkeshögskola Göteborg</span></div>
+    <div class="edu-item"><strong>Machine learning</strong> — <span>Självlärd</span></div>
+    <div class="edu-item"><strong>Spelutvecklare</strong> — <span>Självlärd</span></div>
+  </section>
+
+  <section>
+    <h2>Tekniker</h2>
+    <div class="tech-list">
+      <span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span>
+      <span>Vue.js</span><span>Node.js</span><span>GraphQL</span><span>MongoDB</span>
+      <span>PostgreSQL</span><span>Flutter</span><span>React Native</span><span>.NET</span>
+      <span>C#</span><span>Python</span><span>Cypress</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Språk</h2>
+    <div class="langs">
+      <div class="lang-item"><strong>Svenska</strong> — Flytande</div>
+      <div class="lang-item"><strong>Engelska</strong> — Flytande</div>
+      <div class="lang-item"><strong>Persiska</strong> — Modersmål</div>
+    </div>
+  </section>
+</body>
+</html>

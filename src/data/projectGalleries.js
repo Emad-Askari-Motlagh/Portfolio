@@ -7,6 +7,10 @@ const encodePublicPath = (path) =>
 const gallery = (paths) => paths.map(encodePublicPath);
 
 export const projectGalleries = {
+  lpe: gallery([
+    "/lpe/cover.png",
+    "/lpe/Screenshot 2026-06-09 at 21.27.25.png",
+  ]),
   timetrack: gallery([
     "/timetrack/cover.png",
     "/timetrack/Screenshot 2026-06-09 at 20.04.48.png",
