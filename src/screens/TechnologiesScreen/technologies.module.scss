@@ -1,0 +1,54 @@
+@import "../../../styles/breakpoints.scss";
+
+.technologies {
+  background: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+
+  @include lg {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include sm {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.techItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  background: var(--neutral-50);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--neutral-200);
+  transition: all var(--transition-normal);
+
+  &:hover {
+    background: var(--primary-50);
+    border-color: var(--primary-200);
+    transform: translateY(-2px);
+  }
+
+  span {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--neutral-700);
+    text-align: center;
+  }
+}
+
+.icon {
+  font-size: 2rem;
+  color: var(--primary-600);
+}

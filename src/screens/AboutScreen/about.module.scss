@@ -1,0 +1,66 @@
+@import "../../../styles/breakpoints.scss";
+
+.about {
+  background: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-12);
+  align-items: start;
+
+  @include lg {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+}
+
+.textBlock {
+  p {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--neutral-700);
+    margin-bottom: var(--space-5);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.statCard {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-6);
+  background: linear-gradient(135deg, var(--primary-50), var(--accent-50));
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--primary-100);
+  text-align: center;
+}
+
+.statNumber {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary-600);
+  line-height: 1;
+  margin-bottom: var(--space-2);
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--neutral-600);
+}

@@ -1,0 +1,56 @@
+@import "../../../styles/breakpoints.scss";
+
+.languages {
+  background: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+
+  @include md {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: var(--space-8);
+  background: var(--neutral-50);
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--neutral-200);
+  transition: all var(--transition-normal);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-200);
+  }
+
+  h3 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--neutral-900);
+    margin: var(--space-3) 0 var(--space-2);
+  }
+}
+
+.flag {
+  font-size: 2.5rem;
+}
+
+.level {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--primary-600);
+  background: var(--primary-50);
+  padding: var(--space-1) var(--space-4);
+  border-radius: var(--radius-full);
+}

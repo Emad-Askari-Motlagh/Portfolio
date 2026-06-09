@@ -1,0 +1,203 @@
+{
+  "navigation": {
+    "home": "Hem",
+    "about": "Om mig",
+    "skills": "Kompetens",
+    "projects": "Projekt",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hej, jag är",
+    "name": "Emad Askareimotlagh",
+    "role": "Fullstackutvecklare",
+    "tagline": "Jag bygger hållbara och högkvalitativa digitala lösningar – från kravanalys till färdig leverans.",
+    "cta_primary": "Kontakta mig",
+    "cta_secondary": "Se mina projekt",
+    "years": "3+ års erfarenhet",
+    "location": "Göteborg, Sverige"
+  },
+  "about": {
+    "title": "Om mig",
+    "subtitle": "System- och webbutvecklare med bred teknisk grund",
+    "paragraph1": "Jag har 3 års professionell erfarenhet av system- och webbutveckling, men har programmerat långt innan dess, vilket har gett mig en stabil och bred teknisk grund. Även om jag formellt ibland kategoriseras som junior, ligger min praktiska erfarenhet och problemlösningsförmåga närmare en mer senior nivå.",
+    "paragraph2": "Jag har arbetat både i Sverige och i internationella, distribuerade team och är van vid att ta ansvar för hela utvecklingskedjan – från kravanalys till färdig leverans.",
+    "paragraph3": "Jag trivs i samarbetsorienterade miljöer där tydlig kommunikation, kunskapsdelning och kvalitet står i fokus. Som person är jag nyfiken, lösningsorienterad och ambitiös, med ett gott sinne för humor och ett starkt engagemang i det jag bygger."
+  },
+  "skills": {
+    "title": "Kompetens",
+    "subtitle": "Teknisk bredd inom hela utvecklingskedjan",
+    "frontend": {
+      "title": "Frontend",
+      "description": "React, Next.js, Vue, TypeScript och moderna UI/UX-principer för responsiva och tillgängliga gränssnitt."
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "Node.js, Express, MongoDB, PostgreSQL och RESTful API:er med fokus på skalbarhet och underhåll."
+    },
+    "mobile": {
+      "title": "Mobil",
+      "description": "React Native och Flutter för plattformsoberoende appar med stark användarupplevelse."
+    },
+    "practices": {
+      "title": "Arbetssätt",
+      "description": "Agilt arbetssätt, testning med Cypress, realtidslösningar via WebSockets och CI/CD."
+    }
+  },
+  "experience": {
+    "title": "Erfarenhet",
+    "subtitle": "Hela kedjan – från idé till produktion",
+    "items": [
+      {
+        "title": "Fullstackutveckling",
+        "description": "Ansvar för hela utvecklingskedjan – från kravanalys och arkitektur till implementation och leverans."
+      },
+      {
+        "title": "Internationella team",
+        "description": "Erfarenhet av distribuerade team i Sverige och utomlands med tydlig kommunikation och kunskapsdelning."
+      },
+      {
+        "title": "Problemlösning",
+        "description": "Praktisk erfarenhet och problemlösningsförmåga som överstiger typisk juniornivå."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Utvalda projekt",
+    "subtitle": "Ett urval av tidigare arbete som speglar min tekniska bredd",
+    "view_gallery": "Se alla bilder",
+    "visit_site": "Besök webbplats",
+    "learn_more": "Läs mer",
+    "items": [
+      {
+        "id": "timetrack",
+        "title": "LPE Timetrack",
+        "description": "Deltog i Laggelee AB:s LPE-projekt. Designade och utvecklade hela lösningen – Flutter-app och webbplattform som är live idag. Användare kan skapa uppgifter och projekt, registrera arbetstid samt ledighet som föräldraledighet, semester och sjukfrånvaro.",
+        "category": "Tid & Projekt",
+        "role": "Huvudutvecklare",
+        "tech": ["Flutter", "React", "GraphQL", "Node.js", "MongoDB"],
+        "url": "https://timetrack.scopeworks.se/",
+        "endpoint": "timetrack.scopeworks.se",
+        "image": "/timetrack/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "securoPortal",
+        "title": "SecuroPortal",
+        "description": "Utvecklade cirka 90% av kod och planering för Scopeworks AB. En avancerad plattform där underkunder kan dela upp och dela parkeringsytor samt ta betalt via Fortnox-faktura eller Stripe.",
+        "category": "Parkering & Betalning",
+        "role": "90% av kod & planering",
+        "tech": ["React", "GraphQL", "Node.js", "Mapbox", "Stripe", "Fortnox"],
+        "url": "https://scopeguard.se",
+        "endpoint": "scopeguard.se",
+        "image": "/securoPortal/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "prevent",
+        "title": "Prevent",
+        "description": "Deltog i utvecklingen av en React Native-app för parkeringsvakter att registrera registreringsnummer direkt i fält.",
+        "category": "Mobilapp",
+        "role": "Medverkande utvecklare",
+        "tech": ["React Native", "Node.js", "MongoDB"],
+        "url": "",
+        "endpoint": "Scopeworks AB",
+        "image": null,
+        "gradient": "linear-gradient(135deg, #10b981, #059669)"
+      },
+      {
+        "id": "foodieexpress",
+        "title": "Foodieexpress",
+        "description": "E-handelsplattform för godisförsäljning med modern checkout och betalningsintegration.",
+        "category": "E-handel",
+        "role": "",
+        "tech": ["React", "Next.js", "Stripe"],
+        "url": "https://www.foodieexpress.se",
+        "endpoint": "foodieexpress.se",
+        "image": "/webp/foodieexpres.webp",
+        "gradient": null
+      },
+      {
+        "id": "gbgVegan",
+        "title": "Göteburgare Grill & Bar",
+        "description": "Restaurangwebbplats med onlinebokning av vegan mat, catering, lunchmeny och restauranginformation. Modern och användarvänlig design för Göteborgsbaserad grill & bar.",
+        "category": "Restaurang",
+        "role": "",
+        "tech": ["React", "Node.js", "MongoDB"],
+        "url": "https://goteburgare.com",
+        "endpoint": "goteburgare.com",
+        "image": "/gbgvegan/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "anbar",
+        "title": "Anbar – Lagerhantering",
+        "description": "Lagrings- och lagerhanteringssystem för en möbelfabrik i Iran. React-baserad webbapp med .NET-backend för produkthantering, lagerstatus, in- och utleveranser samt rapporter.",
+        "category": "Lager & Inventarie",
+        "role": "Huvudutvecklare",
+        "tech": ["React", ".NET", "C#", "SQL Server"],
+        "url": "",
+        "endpoint": "Arman Furniture · Iran",
+        "image": "/anbar/anbar.png",
+        "gradient": null
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Tekniker & verktyg",
+    "subtitle": "Teknologier jag arbetar med dagligen"
+  },
+  "education": {
+    "title": "Utbildning",
+    "subtitle": "Akademisk bakgrund och kontinuerligt lärande",
+    "items": [
+      {
+        "degree": "Computer science",
+        "school": "Kandidatexamen · Iran"
+      },
+      {
+        "degree": "Machine learning",
+        "school": "Självlärd"
+      },
+      {
+        "degree": "Fullstackutvecklare",
+        "school": "Jensen Yrkeshögskola Göteborg"
+      },
+      {
+        "degree": "Spelutvecklare",
+        "school": "Självlärd"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Språk",
+    "subtitle": "Kommunikation i flera språk",
+    "items": [
+      { "name": "Svenska", "level": "Flytande" },
+      { "name": "Engelska", "level": "Flytande" },
+      { "name": "Persiska", "level": "Modersmål" }
+    ]
+  },
+  "contact": {
+    "title": "Kontakta mig",
+    "subtitle": "Jag ser fram emot att diskutera hur jag kan bidra till ert team. Tveka inte att höra av dig!",
+    "form_title": "Skicka ett meddelande",
+    "form_subtitle": "Fyll i formuläret så återkommer jag så snart som möjligt",
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "submit": "Skicka meddelande",
+    "success": "Tack för ditt meddelande! Jag återkommer så snart som möjligt.",
+    "error": "Något gick fel. Försök igen eller maila mig direkt."
+  },
+  "footer": {
+    "description": "Fullstackutvecklare med passion för att bygga hållbara och högkvalitativa digitala lösningar.",
+    "quick_links": "Snabblänkar",
+    "contact": "Kontakt",
+    "copyright": "Alla rättigheter förbehållna."
+  },
+  "cta": {
+    "title": "Redo att samarbeta?",
+    "subtitle": "Jag ser fram emot möjligheten att diskutera hur jag kan bidra till ert team och företagets fortsatta framgång.",
+    "button": "Boka ett samtal"
+  }
+}

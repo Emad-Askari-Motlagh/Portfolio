@@ -1,0 +1,203 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Emad Askareimotlagh",
+    "role": "Full-Stack Developer",
+    "tagline": "I build sustainable, high-quality digital solutions — from requirements analysis to final delivery.",
+    "cta_primary": "Contact me",
+    "cta_secondary": "View my projects",
+    "years": "3+ years experience",
+    "location": "Gothenburg, Sweden"
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Systems and web developer with a broad technical foundation",
+    "paragraph1": "I have 3 years of professional experience in systems and web development, but have been programming long before that, giving me a stable and broad technical foundation. Although I am sometimes formally categorized as junior, my practical experience and problem-solving ability are closer to a more senior level.",
+    "paragraph2": "I have worked both in Sweden and in international, distributed teams and am used to taking responsibility for the entire development chain — from requirements analysis to final delivery.",
+    "paragraph3": "I thrive in collaborative environments where clear communication, knowledge sharing, and quality are in focus. As a person, I am curious, solution-oriented, and ambitious, with a good sense of humor and strong commitment to what I build."
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technical breadth across the entire development chain",
+    "frontend": {
+      "title": "Frontend",
+      "description": "React, Next.js, Vue, TypeScript, and modern UI/UX principles for responsive, accessible interfaces."
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "Node.js, Express, MongoDB, PostgreSQL, and RESTful APIs with focus on scalability and maintainability."
+    },
+    "mobile": {
+      "title": "Mobile",
+      "description": "React Native and Flutter for cross-platform apps with strong user experience."
+    },
+    "practices": {
+      "title": "Practices",
+      "description": "Agile workflows, Cypress testing, real-time solutions via WebSockets, and CI/CD."
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "The full chain — from idea to production",
+    "items": [
+      {
+        "title": "Full-stack development",
+        "description": "Responsibility for the entire development chain — from requirements analysis and architecture to implementation and delivery."
+      },
+      {
+        "title": "International teams",
+        "description": "Experience with distributed teams in Sweden and abroad with clear communication and knowledge sharing."
+      },
+      {
+        "title": "Problem solving",
+        "description": "Practical experience and problem-solving ability that exceeds typical junior level."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Selected projects",
+    "subtitle": "A selection of previous work reflecting my technical breadth",
+    "view_gallery": "View all images",
+    "visit_site": "Visit website",
+    "learn_more": "Learn more",
+    "items": [
+      {
+        "id": "timetrack",
+        "title": "LPE Timetrack",
+        "description": "Participated in Laggelee AB's LPE project. Designed and built the entire solution — Flutter app and web platform, now live. Users can create tasks and projects, register work time, and log leave such as parental leave, vacation, and sick leave.",
+        "category": "Time & Projects",
+        "role": "Lead developer",
+        "tech": ["Flutter", "React", "GraphQL", "Node.js", "MongoDB"],
+        "url": "https://timetrack.scopeworks.se/",
+        "endpoint": "timetrack.scopeworks.se",
+        "image": "/timetrack/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "securoPortal",
+        "title": "SecuroPortal",
+        "description": "Developed approximately 90% of the code and planning for Scopeworks AB. A complex platform where sub-customers can split and share parking areas and get paid via Fortnox invoices or Stripe.",
+        "category": "Parking & Payments",
+        "role": "90% of code & planning",
+        "tech": ["React", "GraphQL", "Node.js", "Mapbox", "Stripe", "Fortnox"],
+        "url": "https://scopeguard.se",
+        "endpoint": "scopeguard.se",
+        "image": "/securoPortal/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "prevent",
+        "title": "Prevent",
+        "description": "Contributed to a React Native app for parking attendants to register license plate numbers in the field.",
+        "category": "Mobile App",
+        "role": "Contributing developer",
+        "tech": ["React Native", "Node.js", "MongoDB"],
+        "url": "",
+        "endpoint": "Scopeworks AB",
+        "image": null,
+        "gradient": "linear-gradient(135deg, #10b981, #059669)"
+      },
+      {
+        "id": "foodieexpress",
+        "title": "Foodieexpress",
+        "description": "E-commerce platform for candy sales with modern checkout and payment integration.",
+        "category": "E-commerce",
+        "role": "",
+        "tech": ["React", "Next.js", "Stripe"],
+        "url": "https://www.foodieexpress.se",
+        "endpoint": "foodieexpress.se",
+        "image": "/webp/foodieexpres.webp",
+        "gradient": null
+      },
+      {
+        "id": "gbgVegan",
+        "title": "Göteburgare Grill & Bar",
+        "description": "Restaurant website with online vegan food booking, catering, lunch menu, and restaurant information. Modern, user-friendly design for a Gothenburg-based grill & bar.",
+        "category": "Restaurant",
+        "role": "",
+        "tech": ["React", "Node.js", "MongoDB"],
+        "url": "https://goteburgare.com",
+        "endpoint": "goteburgare.com",
+        "image": "/gbgvegan/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "anbar",
+        "title": "Anbar – Warehouse Management",
+        "description": "Storage and inventory management system for a furniture company in Iran. React web app with a .NET backend for product management, stock levels, inbound/outbound logistics, and reporting.",
+        "category": "Warehouse & Inventory",
+        "role": "Lead developer",
+        "tech": ["React", ".NET", "C#", "SQL Server"],
+        "url": "",
+        "endpoint": "Arman Furniture · Iran",
+        "image": "/anbar/anbar.png",
+        "gradient": null
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Technologies & tools",
+    "subtitle": "Technologies I work with daily"
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic background and continuous learning",
+    "items": [
+      {
+        "degree": "Computer science",
+        "school": "Bachelor · Iran"
+      },
+      {
+        "degree": "Machine learning",
+        "school": "Self-taught"
+      },
+      {
+        "degree": "Full-stack developer",
+        "school": "Vocational college"
+      },
+      {
+        "degree": "Game developer",
+        "school": "Self-taught"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "subtitle": "Communication in multiple languages",
+    "items": [
+      { "name": "Swedish", "level": "Fluent" },
+      { "name": "English", "level": "Fluent" },
+      { "name": "Persian", "level": "Native" }
+    ]
+  },
+  "contact": {
+    "title": "Contact me",
+    "subtitle": "I look forward to discussing how I can contribute to your team. Don't hesitate to reach out!",
+    "form_title": "Send a message",
+    "form_subtitle": "Fill in the form and I'll get back to you as soon as possible",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send message",
+    "success": "Thank you for your message! I'll get back to you as soon as possible.",
+    "error": "Something went wrong. Please try again or email me directly."
+  },
+  "footer": {
+    "description": "Full-stack developer passionate about building sustainable, high-quality digital solutions.",
+    "quick_links": "Quick links",
+    "contact": "Contact",
+    "copyright": "All rights reserved."
+  },
+  "cta": {
+    "title": "Ready to collaborate?",
+    "subtitle": "I look forward to discussing how I can contribute to your team and your company's continued success.",
+    "button": "Book a call"
+  }
+}
