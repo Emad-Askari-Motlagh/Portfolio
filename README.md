@@ -2,7 +2,7 @@
 
 Personal portfolio site built with Next.js. Showcases projects, skills, education, and contact information in Swedish and English.
 
-## Getting started
+### Getting started
 
 ```bash
 npm install
