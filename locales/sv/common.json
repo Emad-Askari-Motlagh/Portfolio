@@ -82,9 +82,21 @@
       },
      
       {
+        "id": "scopeguard",
+        "title": "Scopeguard",
+        "description": "Deltog i utveckling av Scopeworks AB:s plattform för säkerhet, larm och parkering — med livekarta, ronder, rondhistorik, ritverktyg, kunder och rapporter.",
+        "category": "Säkerhet, Larm & Parkering",
+        "role": "Medverkande utvecklare",
+        "tech": ["React", "GraphQL", "Node.js", "Mapbox"],
+        "url": "https://scopeguard.se",
+        "endpoint": "scopeguard.se",
+        "image": "/scopeguard/cover.png",
+        "gradient": null
+      },
+      {
         "id": "securoPortal",
-        "title": "SecuroPortal",
-        "description": "Utvecklade cirka 90% av kod och planering för Scopeworks AB. En avancerad plattform där underkunder kan dela upp och dela parkeringsytor samt ta betalt via Fortnox-faktura eller Stripe.",
+        "title": "Scopeguard Portal",
+        "description": "Utvecklade cirka 90% av kod och planering för Scopeworks AB. Kundportal där underkunder kan hantera parkeringsytor, användare, tillstånd och betalning via Fortnox-faktura eller Stripe.",
         "category": "Parkering & Betalning",
         "role": "90% av kod & planering",
         "tech": ["React", "GraphQL", "Node.js", "Mapbox", "Stripe", "Fortnox"],

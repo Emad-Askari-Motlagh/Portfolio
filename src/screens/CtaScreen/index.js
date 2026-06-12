@@ -10,13 +10,11 @@ export default function CtaScreen() {
       <div className={styles.content}>
         <h2>{t("cta.title")}</h2>
         <p>{t("cta.subtitle")}</p>
-        <Link href="/kontakt">
-          <a className={styles.button}>
-            {t("cta.button")}
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </a>
+        <Link href="/kontakt" className={styles.button}>
+          {t("cta.button")}
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
         </Link>
       </div>
     </section>
