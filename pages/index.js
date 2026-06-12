@@ -35,7 +35,7 @@ export default function Home() {
         <meta property="og:title" content="Emad Askareimotlagh | Fullstackutvecklare" />
         <meta
           property="og:description"
-          content="Fullstackutvecklare med 3+ års erfarenhet. React, Next.js, Node.js, TypeScript och mer."
+          content="Fullstackutvecklare med cirka 4 års erfarenhet. React, Next.js, Node.js, TypeScript och mer."
         />
       </Head>
 

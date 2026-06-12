@@ -21,7 +21,7 @@ export default function AboutScreen() {
 
           <div className={styles.stats}>
             <div className={styles.statCard}>
-              <span className={styles.statNumber}>3+</span>
+              <span className={styles.statNumber}>4+</span>
               <span className={styles.statLabel}>Års erfarenhet</span>
             </div>
             <div className={styles.statCard}>
