@@ -153,6 +153,18 @@
         "gradient": null
       },
       {
+        "id": "k9solutions",
+        "title": "K9 Solutions",
+        "description": "Website for K9 Solutions — a dog care company offering rest, boarding, walks, and professional care for dogs.",
+        "category": "Dog Care",
+        "role": "",
+        "tech": ["React", "Node.js"],
+        "url": "https://k9-solutions.se",
+        "endpoint": "k9-solutions.se",
+        "image": "/k9solutions/cover.png",
+        "gradient": null
+      },
+      {
         "id": "anbar",
         "title": "Anbar – Warehouse Management",
         "description": "Storage and inventory management system for a furniture company in Iran. React web app with a .NET backend for product management, stock levels, inbound/outbound logistics, and reporting.",

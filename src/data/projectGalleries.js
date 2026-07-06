@@ -43,6 +43,13 @@ export const projectGalleries = {
     "/gbgvegan/Screenshot 2026-06-09 at 20.14.43.png",
     "/gbgvegan/Screenshot 2026-06-09 at 20.14.50.png",
   ]),
+  k9solutions: gallery([
+    "/k9solutions/cover.png",
+    "/k9solutions/Screenshot 2026-07-06 at 13.19.59.png",
+    "/k9solutions/Screenshot 2026-07-06 at 13.20.12.png",
+    "/k9solutions/Screenshot 2026-07-06 at 13.20.24.png",
+    "/k9solutions/Screenshot 2026-07-06 at 13.20.34.png",
+  ]),
   anbar: gallery(["/anbar/anbar.png"]),
 };
 

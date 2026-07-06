@@ -154,6 +154,18 @@
         "gradient": null
       },
       {
+        "id": "k9solutions",
+        "title": "K9 Solutions",
+        "description": "Webbplats för K9 Solutions – hundvårdsföretag som tar hand om och vilar hundar med professionell omvårdnad, promenader och trygg hantering.",
+        "category": "Hundvård",
+        "role": "",
+        "tech": ["React", "Node.js"],
+        "url": "https://k9-solutions.se",
+        "endpoint": "k9-solutions.se",
+        "image": "/k9solutions/cover.png",
+        "gradient": null
+      },
+      {
         "id": "anbar",
         "title": "Anbar – Lagerhantering",
         "description": "Lagrings- och lagerhanteringssystem för en möbelfabrik i Iran. React-baserad webbapp med .NET-backend för produkthantering, lagerstatus, in- och utleveranser samt rapporter.",
