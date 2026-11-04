@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emad Askareimotlagh – CV Kock</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    @page { size: A4; margin: 10mm 12mm; }
+    html, body { height: 100%; }
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.5;
+      color: #1e293b;
+      min-height: 277mm;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 60%);
+      border-bottom: 4px solid #0284c7;
+      padding: 28px 24px;
+      margin-bottom: 22px;
+      min-height: 148px;
+      /* Prevent header split across pages */
+      page-break-inside: avoid;
+      break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 4px solid #bae6fd;
+      flex-shrink: 0;
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.15);
+    }
+    .header-text { flex: 1; min-width: 0; }
+    h1 {
+      font-size: 28pt;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+    .role {
+      font-size: 14pt;
+      color: #0284c7;
+      font-weight: 600;
+      margin: 6px 0 12px;
+    }
+    .tagline {
+      font-size: 10pt;
+      color: #475569;
+      margin-bottom: 12px;
+      max-width: 520px;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 20px;
+      font-size: 9.5pt;
+      color: #475569;
+    }
+    main { flex: 1; display: flex; flex-direction: column; gap: 18px; }
+    h2 {
+      font-size: 11pt;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #0284c7;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 28px;
+    }
+    .skill-item strong {
+      color: #0f172a;
+      display: block;
+      font-size: 10.5pt;
+      margin-bottom: 3px;
+    }
+    .skill-item span { font-size: 10pt; color: #475569; }
+    .job { margin-bottom: 14px; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .job-header h3 { font-size: 11pt; color: #0f172a; }
+    .job-header .period {
+      font-size: 9.5pt;
+      color: #0284c7;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .job .title {
+      font-size: 10pt;
+      color: #64748b;
+      margin-bottom: 4px;
+    }
+    .job p { font-size: 10pt; color: #334155; }
+    .bottom-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 20px 28px;
+    }
+    .edu-item, .lang-item { margin-bottom: 8px; font-size: 10pt; }
+    .edu-item strong, .lang-item strong { color: #0f172a; }
+    .edu-item span { color: #64748b; }
+    .langs { display: flex; flex-direction: column; gap: 6px; }
+    footer {
+      margin-top: auto;
+      padding-top: 18px;
+      border-top: 2px solid #e2e8f0;
+      text-align: center;
+      font-size: 10pt;
+      color: #64748b;
+    }
+    footer .site { white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="photo" src="../public/cv/cv_cover.jpg" alt="Emad Askareimotlagh" />
+    <div class="header-text">
+      <h1>Emad Askareimotlagh</h1>
+      <p class="role">Kock</p>
+      <p class="tagline">Erfaren från restaurangkök och service med vana att arbeta i högt tempo, hålla kvalitet och samarbeta i team.</p>
+      <div class="contact">
+        <span>emad.askari@gmail.com</span>
+        <span>073-056 59 60</span>
+        <span>Göteborg, Sverige</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Profil</h2>
+      <p style="font-size: 10pt; color: #334155;">
+        Jag söker en roll som kock där jag kan använda min erfarenhet från restaurangkök
+        och service. Jag är van vid högt tempo, tydlig hygien och att leverera mat med
+        god kvalitet tillsammans med kollegor.
+      </p>
+    </section>
+
+    <section>
+      <h2>Erfarenhet</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Scopeworks AB</h3>
+          <span class="period">2022 – 2025</span>
+        </div>
+        <p class="title">IT / Fullstackutvecklare · Göteborg</p>
+        <p>
+          Arbetade med utveckling av webb- och IT-lösningar för kunder. Samarbetade
+          med kollegor och intressenter, deltog i planering och leverans, samt hanterade
+          tekniska och kundnära uppgifter i ett professionellt IT-miljö.
+        </p>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Göteburgare Grill & Bar</h3>
+          <span class="period">2017 – 2021</span>
+        </div>
+        <p class="title">Servitör & bartender · Göteborg</p>
+        <p>
+          Ansvarade för gästservice, servering och bardrift. Samarbetade nära köket
+          och fick god förståelse för matflöde, timing och kvalitet i en hektisk miljö.
+        </p>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Muchacho</h3>
+          <span class="period">2014 – 2017</span>
+        </div>
+        <p class="title">Kock · Göteborg</p>
+        <p>
+          Arbetade i köket med matlagning, förberedelser och serveringsfärdig mat.
+          Ansvarade för hygien, ordning och att hålla tempot under lunch och kväll.
+          Samarbetade med servis och kollegor för smidig drift.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Kompetens</h2>
+      <div class="grid-2">
+        <div class="skill-item">
+          <strong>Kök & matlagning</strong>
+          <span>Förberedelser, matlagning och presentation i restaurangkök.</span>
+        </div>
+        <div class="skill-item">
+          <strong>Hygien & rutin</strong>
+          <span>Van att följa hygienregler, hålla rent och arbeta strukturerat.</span>
+        </div>
+        <div class="skill-item">
+          <strong>Teamarbete</strong>
+          <span>Samarbetar nära med kök och servis för smidig service.</span>
+        </div>
+        <div class="skill-item">
+          <strong>Stresshantering</strong>
+          <span>Trivs i högt tempo och behåller fokus på kvalitet och timing.</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="bottom-grid">
+      <section>
+        <h2>Utbildning</h2>
+        <div class="edu-item">
+          <strong>Frontendutvecklare</strong> —
+          <span>Jensen Yrkeshögskola, Göteborg</span>
+        </div>
+        <div class="edu-item">
+          <strong>Kemi – Kandidatexamen</strong> —
+          <span>Semnan University, Iran</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Språk</h2>
+        <div class="langs">
+          <div class="lang-item"><strong>Svenska</strong> — Flytande</div>
+          <div class="lang-item"><strong>Engelska</strong> — Flytande</div>
+          <div class="lang-item"><strong>Persiska</strong> — Modersmål</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    Emad Askareimotlagh · Göteborg
+  </footer>
+</body>
+</html>

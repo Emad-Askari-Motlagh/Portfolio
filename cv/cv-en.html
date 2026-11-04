@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emad Askareimotlagh – CV</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    @page { size: A4; margin: 10mm 12mm; }
+    html, body { height: 100%; }
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.5;
+      color: #1e293b;
+      min-height: 277mm;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 60%);
+      border-bottom: 4px solid #0284c7;
+      padding: 12px 24px;
+      margin-bottom: 18px;
+      min-height: 120px;
+      page-break-inside: avoid;
+      break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 4px solid #bae6fd;
+      flex-shrink: 0;
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.15);
+    }
+    .header-text { flex: 1; min-width: 0; }
+    h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+      line-height: 1.05;
+      margin-bottom: 4px;
+    }
+    .role {
+      font-size: 14pt;
+      color: #0284c7;
+      font-weight: 600;
+      margin: 6px 0 12px;
+    }
+    .tagline {
+      font-size: 10pt;
+      color: #475569;
+      margin-bottom: 12px;
+      max-width: 520px;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 20px;
+      font-size: 9.5pt;
+      color: #475569;
+    }
+    .portfolio-link {
+      color: #0284c7;
+      font-weight: 600;
+    }
+    main { flex: 1; display: flex; flex-direction: column; gap: 20px; }
+    h2 {
+      font-size: 11pt;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #0284c7;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 28px;
+    }
+    .skill-item strong {
+      color: #0f172a;
+      display: block;
+      font-size: 10.5pt;
+      margin-bottom: 3px;
+    }
+    .skill-item span { font-size: 10pt; color: #475569; }
+    .job { margin-bottom: 14px; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .job-header h3 { font-size: 11pt; color: #0f172a; }
+    .job-header .period {
+      font-size: 9.5pt;
+      color: #0284c7;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .job .title {
+      font-size: 10pt;
+      color: #64748b;
+      margin-bottom: 4px;
+    }
+    .job p { font-size: 10pt; color: #334155; }
+    .portfolio-note {
+      background: #f8fafc;
+      border-left: 4px solid #0284c7;
+      padding: 14px 18px;
+      font-size: 10pt;
+      color: #334155;
+      border-radius: 0 8px 8px 0;
+    }
+    .portfolio-note strong { color: #0f172a; }
+    .portfolio-note a, .portfolio-note .site {
+      color: #0284c7;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .bottom-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1.2fr 0.7fr;
+      gap: 20px 28px;
+    }
+    .edu-item, .lang-item { margin-bottom: 8px; font-size: 10pt; }
+    .edu-item strong, .lang-item strong { color: #0f172a; }
+    .edu-item span { color: #64748b; }
+    .tech-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tech-list span {
+      background: #f0f9ff;
+      color: #0369a1;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 9pt;
+      font-weight: 500;
+    }
+    .langs { display: flex; flex-direction: column; gap: 6px; }
+    footer {
+      margin-top: auto;
+      padding-top: 18px;
+      border-top: 2px solid #e2e8f0;
+      text-align: center;
+      font-size: 10pt;
+      color: #64748b;
+    }
+    footer .site { display: inline-block; margin-left: 8px; margin-top: 0; white-space: nowrap; font-size: 11pt; color: #0284c7; font-weight: 700; letter-spacing: 0.2px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="photo" src="../public/cv/cv_cover.jpg" alt="Emad Askareimotlagh" />
+    <div class="header-text">
+      <h1>Emad Askareimotlagh</h1>
+      <p class="role">Fullstack Developer</p>
+      <p class="tagline">I build sustainable, high-quality digital solutions — from requirements analysis to delivery.</p>
+      <div class="contact">
+        <span>emad.askari@gmail.com</span>
+        <span>+46 73-056 59 60</span>
+        <span>Gothenburg, Sweden</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Skills</h2>
+      <div class="grid-2">
+        <div class="skill-item">
+          <strong>Frontend</strong>
+          <span>React, Next.js, Vue, TypeScript and modern UI/UX principles for responsive, accessible interfaces.</span>
+        </div>
+        <div class="skill-item">
+          <strong>Backend</strong>
+          <span>Node.js, Express, .NET, FastAPI (Python), MongoDB, PostgreSQL, GraphQL and RESTful APIs for scalable systems.</span>
+        </div>
+        <div class="skill-item">
+          <strong>Mobile</strong>
+          <span>React Native and Flutter for cross-platform apps focused on performance and UX.</span>
+        </div>
+        <div class="skill-item">
+          <strong>Working Methods</strong>
+          <span>Agile workflows, Cypress, WebSockets, CI/CD, Mapbox, Stripe, Fortnox and collaboration in distributed teams.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Scopeworks AB</h3>
+          <span class="period">2024 – 2026</span>
+        </div>
+        <p class="title">Fullstack Developer · Sweden</p>
+        <p>Developed web and mobile apps for clients within parking, security, time tracking and payments. Responsible for frontend, backend, APIs and production deployments.</p>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Laggelee Technology Lab</h3>
+          <span class="period">2023 – 2024</span>
+        </div>
+        <p class="title">Fullstack Developer · Sweden</p>
+        <p>Built fullstack solutions focusing on web applications, APIs and team collaboration using agile practices.</p>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Alliancecodes AB</h3>
+          <span class="period">2022 – 2023</span>
+        </div>
+        <p class="title">Freelance · Fullstack Developer</p>
+        <p>Freelance projects delivering web applications and backend systems from requirements to delivery.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-note">
+      <strong>Portfolio & projects</strong> — Selected projects, demos and technical breadth are available on my website:
+      <span class="site">emad-six-tan.vercel.app</span>
+    </section>
+
+    <div class="bottom-grid">
+      <section>
+        <h2>Education</h2>
+        <div class="edu-item"><strong>Computer science</strong> — <span>Bachelor's degree · Iran</span></div>
+        <div class="edu-item"><strong>Fullstack Developer</strong> — <span>Jensen Yrkeshögskola Göteborg</span></div>
+        <div class="edu-item"><strong>Machine learning</strong> — <span>Self-taught</span></div>
+        <div class="edu-item"><strong>Game development</strong> — <span>Self-taught</span></div>
+      </section>
+
+      <section>
+        <h2>Technologies</h2>
+        <div class="tech-list">
+          <span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span>
+          <span>Vue.js</span><span>Node.js</span><span>GraphQL</span><span>MongoDB</span>
+          <span>PostgreSQL</span><span>Flutter</span><span>React Native</span><span>.NET</span>
+          <span>C#</span><span>Python</span><span>Cypress</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <div class="langs">
+          <div class="lang-item"><strong>Swedish</strong> — Fluent</div>
+          <div class="lang-item"><strong>English</strong> — Fluent</div>
+          <div class="lang-item"><strong>Persian</strong> — Native</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    Portfolio & contact
+    <span class="site">emad-six-tan.vercel.app</span>
+  </footer>
+</body>
+</html>

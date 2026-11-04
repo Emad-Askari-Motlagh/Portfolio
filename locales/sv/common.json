@@ -19,8 +19,8 @@
   "about": {
     "title": "Om mig",
     "subtitle": "System- och webbutvecklare med bred teknisk grund",
-    "paragraph1": "Jag har 3 års professionell erfarenhet av system- och webbutveckling, men har programmerat långt innan dess, vilket har gett mig en stabil och bred teknisk grund. Även om jag formellt ibland kategoriseras som junior, ligger min praktiska erfarenhet och problemlösningsförmåga närmare en mer senior nivå.",
-    "paragraph2": "Jag har arbetat både i Sverige och i internationella, distribuerade team och är van vid att ta ansvar för hela utvecklingskedjan – från kravanalys till färdig leverans.",
+    "paragraph1": "Jag har tre års professionell erfarenhet och några års oregistrerad erfarenhet av system- och webbutveckling och har programmerat långt innan dess, vilket har gett mig en stabil teknisk grund. Jag har arbetat både i Sverige och i internationella, distribuerade team och är van vid att ta ansvar för hela utvecklingsprocessen, från kravanalys och utveckling till testning och färdig leverans.",
+    "paragraph2": "Jag trivs i samarbetsorienterade miljöer där tydlig kommunikation, kunskapsdelning och kvalitet står i fokus. Som person är jag nyfiken, lösningsorienterad och ambitiös, med ett starkt ansvarstagande och ett gott samarbetsbeteende.",
     "paragraph3": "Jag trivs i samarbetsorienterade miljöer där tydlig kommunikation, kunskapsdelning och kvalitet står i fokus. Som person är jag nyfiken, lösningsorienterad och ambitiös, med ett gott sinne för humor och ett starkt engagemang i det jag bygger."
   },
   "skills": {
@@ -32,7 +32,7 @@
     },
     "backend": {
       "title": "Backend",
-      "description": "Node.js, Express, MongoDB, PostgreSQL och RESTful API:er med fokus på skalbarhet och underhåll."
+      "description": "Node.js, Express, FastAPI (Python), MongoDB, PostgreSQL och RESTful API:er med fokus på skalbarhet och underhåll."
     },
     "mobile": {
       "title": "Mobil",
@@ -163,6 +163,18 @@
         "url": "https://k9-solutions.se",
         "endpoint": "k9-solutions.se",
         "image": "/k9solutions/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "matamig",
+        "title": "Matamig",
+        "description": "Koncept under utveckling för en kreativ kund som planerar att starta ett företag med matbil. Projektet fokuserar på en mobilvänlig lunchbeställningsupplevelse, byggt med Next.js i frontend och .NET i backend för en modern och skalbar lösning.",
+        "category": "Matbil & Lunch",
+        "role": "Fullstackutvecklare",
+        "tech": ["Next.js", "React", ".NET", "C#", "SQL Server"],
+        "url": "",
+        "endpoint": "Lunchbilskoncept",
+        "image": "/matamig/Screenshot 2026-11-04 at 14.47.55.png",
         "gradient": null
       },
       {

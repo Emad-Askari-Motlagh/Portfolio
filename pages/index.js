@@ -32,7 +32,10 @@ export default function Home() {
           name="description"
           content="Portfolio för Emad Askareimotlagh – fullstackutvecklare med erfarenhet av React, Next.js, Node.js och moderna webbteknologier."
         />
-        <meta property="og:title" content="Emad Askareimotlagh | Fullstackutvecklare" />
+        <meta
+          property="og:title"
+          content="Emad Askareimotlagh | Fullstackutvecklare"
+        />
         <meta
           property="og:description"
           content="Fullstackutvecklare med cirka 4 års erfarenhet. React, Next.js, Node.js, TypeScript och mer."

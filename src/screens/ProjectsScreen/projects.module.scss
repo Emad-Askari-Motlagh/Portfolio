@@ -305,14 +305,16 @@
 
 .galleryScroll {
   display: flex;
+  flex-direction: column;
   gap: var(--space-4);
   padding: var(--space-6);
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
+  overflow-y: auto;
+  max-height: 70vh;
   -webkit-overflow-scrolling: touch;
+  scroll-snap-type: y proximity;
 
   &::-webkit-scrollbar {
-    height: 8px;
+    width: 8px;
   }
 
   &::-webkit-scrollbar-thumb {
@@ -322,23 +324,31 @@
 }
 
 .galleryItem {
-  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 0 0 100%;
   scroll-snap-align: start;
   border-radius: var(--radius-xl);
   overflow: hidden;
   border: 1px solid var(--neutral-200);
   box-shadow: var(--shadow-md);
   background: var(--neutral-100);
+  min-height: 150px;
 
   img {
     display: block;
-    height: 420px;
-    width: auto;
-    max-width: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 120px;
+    max-height: 70vh;
     object-fit: contain;
+    background: var(--neutral-100);
 
     @include md {
-      height: 280px;
+      max-height: 55vh;
     }
   }
 }

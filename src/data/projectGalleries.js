@@ -51,6 +51,10 @@ export const projectGalleries = {
     "/k9solutions/Screenshot 2026-07-06 at 13.20.34.png",
   ]),
   anbar: gallery(["/anbar/anbar.png"]),
+  matamig: gallery([
+    "/matamig/Screenshot 2026-11-04 at 14.47.55.png",
+    "/matamig/Screenshot 2026-11-04 at 14.50.41.png",
+  ]),
 };
 
 export const getProjectGallery = (id) => projectGalleries[id] || [];

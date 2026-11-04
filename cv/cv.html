@@ -22,9 +22,14 @@
       gap: 24px;
       background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 60%);
       border-bottom: 4px solid #0284c7;
-      padding: 28px 24px;
-      margin-bottom: 22px;
-      min-height: 148px;
+      /* Reduced padding to avoid clipping near the top when printing */
+      padding: 12px 24px;
+      margin-bottom: 18px;
+      min-height: 120px;
+      /* Prevent header from being split across pages when printing/PDF */
+      page-break-inside: avoid;
+      break-inside: avoid;
+      -webkit-column-break-inside: avoid;
     }
     .photo {
       width: 120px;
@@ -38,11 +43,13 @@
     }
     .header-text { flex: 1; min-width: 0; }
     h1 {
-      font-size: 28pt;
+      /* Slightly smaller to avoid being clipped in PDF output */
+      font-size: 20pt;
       font-weight: 700;
       color: #0f172a;
       letter-spacing: -0.5px;
-      line-height: 1.1;
+      line-height: 1.05;
+      margin-bottom: 4px;
     }
     .role {
       font-size: 14pt;
@@ -89,17 +96,27 @@
       margin-bottom: 3px;
     }
     .skill-item span { font-size: 10pt; color: #475569; }
-    .exp-item {
-      margin-bottom: 12px;
+    .job { margin-bottom: 14px; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .job-header h3 { font-size: 11pt; color: #0f172a; }
+    .job-header .period {
+      font-size: 9.5pt;
+      color: #0284c7;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .job .title {
       font-size: 10pt;
-      color: #334155;
+      color: #64748b;
+      margin-bottom: 4px;
     }
-    .exp-item strong {
-      color: #0f172a;
-      display: block;
-      font-size: 10.5pt;
-      margin-bottom: 2px;
-    }
+    .job p { font-size: 10pt; color: #334155; }
     .portfolio-note {
       background: #f8fafc;
       border-left: 4px solid #0284c7;
@@ -145,8 +162,10 @@
       color: #64748b;
     }
     footer .site {
-      display: block;
-      margin-top: 4px;
+      display: inline-block;
+      margin-left: 8px;
+      margin-top: 0;
+      white-space: nowrap;
       font-size: 11pt;
       color: #0284c7;
       font-weight: 700;
@@ -165,7 +184,6 @@
         <span>emad.askari@gmail.com</span>
         <span>073-056 59 60</span>
         <span>Göteborg, Sverige</span>
-        <span class="portfolio-link">emad-six-tan.vercel.app</span>
       </div>
     </div>
   </header>
@@ -180,7 +198,7 @@
         </div>
         <div class="skill-item">
           <strong>Backend</strong>
-          <span>Node.js, Express, .NET, MongoDB, PostgreSQL, GraphQL och RESTful API:er för skalbara system.</span>
+          <span>Node.js, Express, .NET, FastAPI (Python), MongoDB, PostgreSQL, GraphQL och RESTful API:er för skalbara system.</span>
         </div>
         <div class="skill-item">
           <strong>Mobil</strong>
@@ -195,17 +213,41 @@
 
     <section>
       <h2>Erfarenhet</h2>
-      <div class="exp-item">
-        <strong>Fullstackutveckling</strong>
-        Ansvar för hela utvecklingskedjan – från kravanalys och arkitektur till implementation, testning och leverans i produktion.
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Scopeworks AB</h3>
+          <span class="period">2024 – 2026</span>
+        </div>
+        <p class="title">Fullstackutvecklare · Sverige</p>
+        <p>
+          Utvecklar webb- och mobilappar för kunder inom parkering, säkerhet, tidrapportering och
+          betalning. Ansvar för frontend, backend, API:er och leverans i produktion.
+        </p>
       </div>
-      <div class="exp-item">
-        <strong>Internationella team</strong>
-        Erfarenhet av distribuerade team i Sverige och utomlands med tydlig kommunikation, kunskapsdelning och agila arbetssätt.
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Laggelee Technology Lab</h3>
+          <span class="period">2023 – 2024</span>
+        </div>
+        <p class="title">Fullstackutvecklare · Sverige</p>
+        <p>
+          Utvecklade fullstack-lösningar med fokus på webbapplikationer, API:er och
+          samarbete i team med agilt arbetssätt.
+        </p>
       </div>
-      <div class="exp-item">
-        <strong>Problemlösning & kvalitet</strong>
-        Praktisk erfarenhet och problemlösningsförmåga med fokus på underhållbar kod, tydlig struktur och långsiktig kvalitet.
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Alliancecodes AB</h3>
+          <span class="period">2022 – 2023</span>
+        </div>
+        <p class="title">Freelance · Fullstackutvecklare</p>
+        <p>
+          Frilansuppdrag med utveckling av webbapplikationer och backend-lösningar
+          från kravanalys till leverans.
+        </p>
       </div>
     </section>
 

@@ -19,8 +19,8 @@
   "about": {
     "title": "About me",
     "subtitle": "Systems and web developer with a broad technical foundation",
-    "paragraph1": "I have 3 years of professional experience in systems and web development, but have been programming long before that, giving me a stable and broad technical foundation. Although I am sometimes formally categorized as junior, my practical experience and problem-solving ability are closer to a more senior level.",
-    "paragraph2": "I have worked both in Sweden and in international, distributed teams and am used to taking responsibility for the entire development chain — from requirements analysis to final delivery.",
+    "paragraph1": "I have three years of professional experience and several years of unregistered experience in systems and web development, and I have been programming long before that, which has given me a solid technical foundation. I have worked both in Sweden and in international, distributed teams and am comfortable taking responsibility for the entire development process, from requirements analysis and development to testing and final delivery.",
+    "paragraph2": "I thrive in collaborative environments where clear communication, knowledge sharing, and quality are in focus. As a person, I am curious, solution-oriented, and ambitious, with strong ownership and a good collaborative mindset.",
     "paragraph3": "I thrive in collaborative environments where clear communication, knowledge sharing, and quality are in focus. As a person, I am curious, solution-oriented, and ambitious, with a good sense of humor and strong commitment to what I build."
   },
   "skills": {
@@ -32,7 +32,7 @@
     },
     "backend": {
       "title": "Backend",
-      "description": "Node.js, Express, MongoDB, PostgreSQL, and RESTful APIs with focus on scalability and maintainability."
+      "description": "Node.js, Express, FastAPI (Python), MongoDB, PostgreSQL, and RESTful APIs with focus on scalability and maintainability."
     },
     "mobile": {
       "title": "Mobile",
@@ -162,6 +162,18 @@
         "url": "https://k9-solutions.se",
         "endpoint": "k9-solutions.se",
         "image": "/k9solutions/cover.png",
+        "gradient": null
+      },
+      {
+        "id": "matamig",
+        "title": "Matamig",
+        "description": "Concept under development for a creative customer planning to launch a food truck company. The project focuses on a mobile-friendly lunch ordering experience, built with Next.js on the frontend and .NET on the backend for a modern and scalable solution.",
+        "category": "Food Truck & Lunch",
+        "role": "Full-stack developer",
+        "tech": ["Next.js", "React", ".NET", "C#", "SQL Server"],
+        "url": "",
+        "endpoint": "Lunch truck concept",
+        "image": "/matamig/Screenshot 2026-11-04 at 14.47.55.png",
         "gradient": null
       },
       {
